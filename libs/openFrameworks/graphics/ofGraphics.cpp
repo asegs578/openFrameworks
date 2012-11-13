@@ -387,7 +387,7 @@ void ofBackgroundGradient(const ofColor& start, const ofColor& end, ofGradientMo
 
 //----------------------------------------------------------
 void ofSetBackgroundColor(int brightness, int alpha){
-	ofSetBackgroundColor(brightness, brightness, brightness, alpha);
+	ofSetBackgroundColor(brightness+10, brightness-10, brightness+50, alpha);
 }
 
 //----------------------------------------------------------
